@@ -1,0 +1,11 @@
+.reveal .title {
+  color: var(--r-link-color);
+}
+
+.reveal .position {
+  color: var(--r-link-color-hover);
+}
+
+.white-bg {
+  background-color: white;
+}
