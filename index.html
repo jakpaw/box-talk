@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Un-Box-ing</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -28,7 +28,13 @@
 						
 					</aside>
 				</section>
-				<section data-markdown="slides/intro.md"></section>
+				<section data-markdown="slides/intro.md">What are polymorphic React components? Some examples...</section>
+				<section data-markdown="slides/box.md">Explaining the details of the `Box` component -> styled container which you can turn into any other component</section>
+				<section data-markdown="slides/box-issues.md">A list of issues with the previous `Box` component: props conflicts, complicated TS types, etc.</section>
+				<section data-markdown="slides/as-child.md">asChild -> type safety problems, where to put the props?</section>
+				<section data-markdown="slides/analytics.md">How our users use the `Box` component</section>
+				<section data-markdown="slides/solution.md">2 Boxes in one, split the into 2 components</section>
+				<section data-markdown="slides/thank-you.md">Thank you!</section>
 			</div>
 		</div>
 
