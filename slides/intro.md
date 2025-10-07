@@ -9,4 +9,6 @@ const Button = ({ as: Component, ...props }) =&gt; {
 };
 </code></pre> -->
 
+- Users can pass the element to render as a prop
+
 <img src="code/poly.svg" />

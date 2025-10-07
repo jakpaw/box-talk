@@ -1,4 +1,4 @@
-### The Box component
+### The Box component 📦
 
 <!-- <pre><code data-line-numbers="1-2|4-8" data-trim class="language-xml">
 &lt;Box as="button" onClick={...} padding="large"&gt;...&lt;/Box&gt;
@@ -10,5 +10,7 @@ const Box = ({ as: Component, ...props }) =&gt; {
   return &lt;Component {...otherProps} className={classNames} /&gt;
 };
 </code></pre> -->
+
+- A component with type-safe design system styles
 
 <img src="code/box.svg" />
